@@ -52,3 +52,8 @@ print(array3 - 1)
 print(array3 * 2)
 print(array3 / 2)
 print(array3 ** 3)
+
+# 4.2 Vectorized math funs:
+array4 = np.array([2,3,4,5])
+print(f"Your array is: {np.sqrt(array4)}")
+print(f"Your array is: {(np.sqrt(array4)).round()}")
