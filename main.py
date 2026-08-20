@@ -1,6 +1,7 @@
 # N-Dimensional array:
 import numpy as np
 array = np.array([1,2,3])
+print(array)
 array = array*2
 print(array)
 
@@ -24,3 +25,5 @@ print(array.ndim)
 print(array1.ndim)
 
 # Check the shape of array:
+print(array.shape)
+print(array1.shape)
