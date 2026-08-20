@@ -42,3 +42,13 @@ print(f" Your array is : {array2[::2]}")
 
 # Columns Selection:
 print(array2[:,0:2])
+
+# 4. Airthmetic:
+# 4.1 Scalar Airthmetic
+array3 = np.array([2,3,4,5])
+print(array3)
+print(array3 + 1)
+print(array3 - 1)
+print(array3 * 2)
+print(array3 / 2)
+print(array3 ** 3)
