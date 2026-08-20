@@ -39,3 +39,6 @@ print(array2[0:3])
 
 # Printing array with 2 steps:
 print(f" Your array is : {array2[::2]}")
+
+# Columns Selection:
+print(array2[:,0:2])
